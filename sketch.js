@@ -22,7 +22,7 @@ function setup() {
 
   happyDog= createSprite(width/2,250,10,10);
   happyDog.addImage("happydog",happyDogImg);
-  happyDog.scale=0.3;
+  happyDog.scale=0.4;
 
   foodStock=database.ref('food');
   foodStock.on("value",readStock);
